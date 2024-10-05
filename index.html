@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap-simplex.css">
+        <title>Process Scheduling Simulator</title>
+    </head>
+    <body>
+        <section class="header">
+            <div class="text-box">
+                <h1>
+                    CPU Scheduling Simulator
+                </h1>
+                <p>
+                    Virtual lab for all type of Scheduling algorithm which will help you to understand algorithm better way.<br>Start simulation now.
+                </p>
+                <a href="./backend/ganttcharts.html" class="hero-btn">Simulator</a>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="icons">
+                <a href="https://www.facebook.com"><i  class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=17s1o7wfms500&utm_content=i08g8yn"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/Krutarth12345?t=JASTMDZLzUB4VOR-OEd_kg&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/krutarth-patel-653065205 "><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>Made by <i class="far fa-heart"></i> Poonam & Aanchal </p>
+            <p> <i class="fa fa-copyright"></i> copyright 2024 || All rights reserved</p>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() 
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() 
+            {
+                navLinks.style.right = "-200px";
+            }
+            function gotoDocs()
+            {
+                location.href = ("docs.html");
+            }
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init({offset: 100, duration: 800});</script>
+    </body>
+</html>
